@@ -4,3 +4,4 @@ resource "aws_subnet" "main" {
   cidr_block = var.cidr_block[count.index]
   availability_zone = var.azs[count.index]
 }
+#
